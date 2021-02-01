@@ -126,7 +126,7 @@ def get_content_report(twitter_list_of_json):
     text_list = []
     exclude = ['is', 'in', 'not', 'too', 'to', 'I', 'has', 'for', 'if', 'by', 'a', 'your', 'on', 'with', 'will',
                'it', 'and', 'am', 'are', 'we', 'look', 'the', 'like', 'she', 'he', 'her', 'have', 'his', 'of',
-               'from', 'you', 'this', 'A', 'who', 'How', 'be', 'that']
+               'from', 'you', 'this', 'A', 'who', 'How', 'be', 'that', 'took','many', 'soo','when', 'their']
 
     for i in twitter_list_of_json:
         text_list.append(i['text'])
